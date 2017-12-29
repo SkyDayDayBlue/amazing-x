@@ -25,3 +25,4 @@ A curated list of awesome frameworks, articles, libraries and software for My ti
 
 ## Mobile Apps Developemnt
 - [NativeScript](https://www.nativescript.org/) - Build amazing iOS and Android apps with technology you already know Open source framework for building truly native mobile apps with Angular, TypeScript or JavaScript.
+- [Flutter](https://flutter.io/) - makes it easy and fast to build beautiful mobile apps. 
