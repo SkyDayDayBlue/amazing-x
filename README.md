@@ -1,4 +1,7 @@
-# Awesome Trump [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/SkyDayDayBlue/awesome-sddb)
+Awesome Trump
+========================
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://mit-license.org/)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/SkyDayDayBlue/awesome-sddb)
 
 ![SkyDayDayBlue](https://stores.org/wp-content/uploads/2017/07/blue_skies.jpg)
 
@@ -25,4 +28,4 @@ A curated list of awesome frameworks, articles, libraries and software for My ti
 
 ## Mobile Apps Developemnt
 - [NativeScript](https://www.nativescript.org/) - Build amazing iOS and Android apps with technology you already know Open source framework for building truly native mobile apps with Angular, TypeScript or JavaScript.
-- [Flutter](https://flutter.io/) - makes it easy and fast to build beautiful mobile apps. 
+- [Flutter](https://flutter.io/) - makes it easy and fast to build beautiful mobile apps.
