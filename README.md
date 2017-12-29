@@ -2,7 +2,7 @@ Awesome Trump
 ========================
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://mit-license.org/)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/SkyDayDayBlue/awesome-sddb)
-
+[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/eslint/eslint.svg)](https://github.com/SkyDayDayBlue/awesome-trump/commits/master)
 ![SkyDayDayBlue](https://stores.org/wp-content/uploads/2017/07/blue_skies.jpg)
 
 
