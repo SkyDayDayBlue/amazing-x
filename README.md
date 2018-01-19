@@ -15,6 +15,8 @@ A curated list of awesome frameworks, articles, libraries and software for My ti
 - [Articles](#articles)
 - [Microservices](#microservices)
 - [Mobile Apps Developemnt](#mobile-apps-developemnt)
+- [Communication](#communication)
+- [Companies](#companies)
 
 ## Version Control
 - [Buddy Works](https://buddy.works/)
@@ -29,3 +31,12 @@ A curated list of awesome frameworks, articles, libraries and software for My ti
 ## Mobile Apps Developemnt
 - [NativeScript](https://www.nativescript.org/) - Build amazing iOS and Android apps with technology you already know Open source framework for building truly native mobile apps with Angular, TypeScript or JavaScript.
 - [Flutter](https://flutter.io/) - makes it easy and fast to build beautiful mobile apps.
+
+## Communication
+- [Atlassian Stride](https://www.stride.com/) - Is the complete team communication solution
+- [Atlassian Hipchat](https://www.atlassian.com/software/hipchat) - Self-hosted team communication, built for the enterprise
+- [Mastodon](https://joinmastodon.org/) - The world’s largest free, open-source, decentralized microblogging network
+
+## Companies
+- Atlassian
+  - [Products](https://www.atlassian.com/software)
