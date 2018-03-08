@@ -17,6 +17,8 @@ A curated list of awesome frameworks, articles, libraries and software for My ti
 - [Mobile Apps Developemnt](#mobile-apps-developemnt)
 - [Communication](#communication)
 - [Companies](#companies)
+- [Docker Images](#docker-images)
+- [Unusual Libs](#unusual-libs)
 
 ## Version Control
 - [Buddy Works](https://buddy.works/)
@@ -40,3 +42,9 @@ A curated list of awesome frameworks, articles, libraries and software for My ti
 ## Companies
 - Atlassian
   - [Products](https://www.atlassian.com/software)
+
+## Docker Images
+- [Adminer](https://www.adminer.org/en/) - `docker pull adminer`[[HERE]](https://hub.docker.com/_/adminer/)
+
+## Unusual Libs
+- [PrettyTime](https://github.com/ocpsoft/prettytime) - Social Style Date and Time Formatting for Java http://ocpsoft.org/prettytime/
