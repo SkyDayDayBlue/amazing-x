@@ -19,6 +19,7 @@ A curated list of awesome frameworks, articles, libraries and software for My ti
 - [Companies](#companies)
 - [Docker Images](#docker-images)
 - [Unusual Libs](#unusual-libs)
+- [iOS](#ios)
 
 ## Version Control
 - [Buddy Works](https://buddy.works/)
@@ -33,6 +34,7 @@ A curated list of awesome frameworks, articles, libraries and software for My ti
 ## Mobile Apps Developemnt
 - [NativeScript](https://www.nativescript.org/) - Build amazing iOS and Android apps with technology you already know Open source framework for building truly native mobile apps with Angular, TypeScript or JavaScript.
 - [Flutter](https://flutter.io/) - makes it easy and fast to build beautiful mobile apps.
+- [Weex](https://weex.apache.org) - is a framework for building high-performance mobile applications with modern web development experience.
 
 ## Communication
 - [Atlassian Stride](https://www.stride.com/) - Is the complete team communication solution
@@ -48,3 +50,8 @@ A curated list of awesome frameworks, articles, libraries and software for My ti
 
 ## Unusual Libs
 - [PrettyTime](https://github.com/ocpsoft/prettytime) - Social Style Date and Time Formatting for Java http://ocpsoft.org/prettytime/
+
+iOS
+---------------
+
+- [Peek](<https://github.com/shaps80/Peek>) - Inspect your iOS application at runtime. `http://shaps.me/peek`
