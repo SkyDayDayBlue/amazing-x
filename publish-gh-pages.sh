@@ -10,6 +10,9 @@ then
     exit 1;
 fi
 
+echo "Update the whole git repo"
+git fetch -p
+
 echo "Deleting old publication"
 rm -rf public
 mkdir public
