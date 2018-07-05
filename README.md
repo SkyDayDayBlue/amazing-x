@@ -5,7 +5,7 @@
 
 ![SkyDayDayBlue](static/images/bluesky.jpg)
 
-> A curated list of awesome frameworks, articles, libraries and software for My time. [AMZING-X](https://amzing-x.com/)
+> A curated list of awesome frameworks, articles, libraries and software for My time. 
 
 # Contents
 
