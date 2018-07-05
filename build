@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+echo 'Convert `README.md` to `README.asciidoc`'
+pandoc -s --columns=120 --from=markdown+smart --to=asciidoc --template=./templates/special.asciidoc -o README.asciidoc ./templates/metadata.yaml README.md
+
+echo 'Use `asciidoctor` to generate the `index.html` file'
+asciidoctor README.asciidoc -o public/index.html -a stylesheet=templates/golo.css
+
+rm -rf public/static
+mv static public
+
+echo 'Cleaning'
+# rm README.asciidoc

@@ -1,0 +1,38 @@
+$if(titleblock)$
+$title$
+$if(author)$
+$for(author)$
+:author: $author.name$
+:email: $author.email$
+$endfor$
+$endif$
+:toc: left
+:source-highlighter: prettify
+:sectnums:
+$if(date)$
+$date$
+$endif$
+$if(keywords)$
+:keywords: $for(keywords)$$keywords$$sep$, $endfor$
+$endif$
+$endif$
+
+$if(abstract)$
+[abstract]
+== Abstract
+$abstract$
+$endif$
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+$for(include-before)$
+$include-before$
+$endfor$
+
+$body$
+
+$for(include-after)$
+$include-after$
+$endfor$
