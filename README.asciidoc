@@ -20,20 +20,6 @@ A curated list of awesome frameworks, articles, libraries and software
 for My time.
 ___________________________________________________________________________________
 
-Contents
---------
-
-* link:#hipster[Hipster]
-* link:#version-control[Version Control]
-* link:#articles[Articles]
-* link:#micro-services[Micro Services]
-* link:#mobile-apps-development[Mobile Apps Development]
-* link:#communication[Communication]
-* link:#companies[Companies]
-* link:#docker-images[Docker Images]
-* link:#unusual-libs[Unusual Libs]
-* link:#ios[iOS]
-
 Java Hipster
 ------------
 
