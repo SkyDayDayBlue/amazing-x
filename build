@@ -10,4 +10,4 @@ rm -rf public/static
 cp -R static public/
 
 echo 'Cleaning file `README.asciidoc`'
-rm README.asciidoc
+# rm README.asciidoc

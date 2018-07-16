@@ -9,6 +9,7 @@
 
 # Contents
 
+  - [Hipster](#hipster)
   - [Version Control](#version-control)
   - [Articles](#articles)
   - [Micro Services](#micro-services)
@@ -18,6 +19,10 @@
   - [Docker Images](#docker-images)
   - [Unusual Libs](#unusual-libs)
   - [iOS](#ios)
+
+# Java Hipster
+
+- [JHipster](https://www.jhipster.tech/) - Open Source application generator for creating Spring Boot + Angular/React projects in seconds!
 
 # Version Control
 
