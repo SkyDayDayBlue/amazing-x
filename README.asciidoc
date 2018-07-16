@@ -1,0 +1,107 @@
+Amazing x space
+===============
+:author: Yimin,Wu
+:email: gardenia.wu@outlook.com
+:toc: left
+:source-highlighter: prettify
+:sectnums:
+:keywords: awesome, tools, java, engineer
+
+What is Amazing x?
+------------------
+
+https://mit-license.org/[image:https://img.shields.io/github/license/mashape/apistatus.svg[License]]
+https://github.com/SkyDayDayBlue/awesome-sddb[image:https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg[Awesome]]
+
+image:static/images/bluesky.jpg[SkyDayDayBlue]
+
+___________________________________________________________________________________
+A curated list of awesome frameworks, articles, libraries and software
+for My time.
+___________________________________________________________________________________
+
+Contents
+--------
+
+* link:#hipster[Hipster]
+* link:#version-control[Version Control]
+* link:#articles[Articles]
+* link:#micro-services[Micro Services]
+* link:#mobile-apps-development[Mobile Apps Development]
+* link:#communication[Communication]
+* link:#companies[Companies]
+* link:#docker-images[Docker Images]
+* link:#unusual-libs[Unusual Libs]
+* link:#ios[iOS]
+
+Java Hipster
+------------
+
+* https://www.jhipster.tech/[JHipster] - Open Source application
+generator for creating Spring Boot + Angular/React projects in seconds!
+
+Version Control
+---------------
+
+* https://buddy.works/[Buddy Works]
+* https://about.gitlab.com/[GitLab]
+
+Articles
+--------
+
+* https://www.codeproject.com/Articles/42354/The-Art-of-Logging[The Art
+of Logging]
+
+Micro Services
+--------------
+
+* https://getkong.org/[Kong] - Secure, Manage & Extend your APIs and
+Micro Services
+
+Mobile Apps Development
+-----------------------
+
+* https://www.nativescript.org/[NativeScript] - Build amazing iOS and
+Android apps with technology you already know Open source framework for
+building truly native mobile apps with Angular, TypeScript or
+JavaScript.
+* https://flutter.io/[Flutter] - makes it easy and fast to build
+beautiful mobile apps.
+* https://weex.apache.org[Weex] - is a framework for building
+high-performance mobile applications with modern web development
+experience.
+
+Communication
+-------------
+
+* https://www.stride.com/[Atlassian Stride] - Is the complete team
+communication solution
+* https://www.atlassian.com/software/hipchat[Atlassian Hipchat] -
+Self-hosted team communication, built for the enterprise
+* https://joinmastodon.org/[Mastodon] - The world’s largest free,
+open-source, decentralized microblogging network
+
+Companies
+---------
+
+* Atlassian
+** https://www.atlassian.com/software[Products]
+
+Docker Images
+-------------
+
+* https://www.adminer.org/en/[Adminer] -
+`docker pull adminer`https://hub.docker.com/_/adminer/[[HERE]]
+
+Unusual Libs
+------------
+
+* https://github.com/ocpsoft/prettytime[PrettyTime] - Social Style Date
+and Time Formatting for Java http://ocpsoft.org/prettytime/
+
+iOS
+---
+
+* https://github.com/shaps80/Peek[Peek] - Inspect your iOS application
+at runtime. `http://shaps.me/peek`
+
