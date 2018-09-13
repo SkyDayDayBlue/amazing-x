@@ -63,7 +63,7 @@ Communication
 communication solution
 * https://www.atlassian.com/software/hipchat[Atlassian Hipchat] -
 Self-hosted team communication, built for the enterprise
-* https://joinmastodon.org/[Mastodon] - The world’s largest free,
+* https://joinmastodon.org/[Mastodon] - The worldâ€™s largest free,
 open-source, decentralized microblogging network
 
 Companies
@@ -93,10 +93,10 @@ at runtime. `http://shaps.me/peek`
 Sites
 ------
 
-* https://gank.io[?????] - ??????? ? ???????????????????
-* https://tutucloud.com[??] - ???? & ????
-* https://fir.im/[fir.im] - ???????
-* https://realm.io/cn[realm] - ????????????????????
-* https://www.suo-url.cn/[???]
-* https://www.kuaizhan.com/[??] - 
+* https://gank.io[干货集中营] - 每日分享妹子图 和 技术干货，还有供大家中午休息的休闲视频
+* https://tutucloud.com[涂图] - 视频图像 & 人工智能
+* https://fir.im/[fir.im] - 应用测试和发布
+* https://realm.io/cn[realm] - 更好的移动端数据库意味着更好的移动端应用
+* https://www.suo-url.cn/[短网址]
+* https://www.kuaizhan.com/[快站] - 
 
