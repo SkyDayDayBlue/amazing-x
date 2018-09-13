@@ -13,7 +13,7 @@ What is Amazing x?
 https://mit-license.org/[image:https://img.shields.io/github/license/mashape/apistatus.svg[License]]
 https://github.com/SkyDayDayBlue/awesome-sddb[image:https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg[Awesome]]
 
-image:static/images/bluesky.jpg[SkyDayDayBlue]
+image:https://picsum.photos/1000/800/?random[picsum.photos]
 
 ___________________________________________________________________________________
 A curated list of awesome frameworks, articles, libraries, software and sites for My time.
@@ -99,4 +99,10 @@ Sites
 * https://realm.io/cn[realm] - 更好的移动端数据库意味着更好的移动端应用
 * https://www.suo-url.cn/[短网址]
 * https://www.kuaizhan.com/[快站] - 
+
+Thanks
+-------
+
+* https://picsum.photos[Lorem Picsum] - Get a specified size and beautiful subject image
+
 
