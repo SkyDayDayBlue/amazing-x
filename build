@@ -9,5 +9,5 @@ asciidoctor README.asciidoc -o public/index.html -a stylesheet=templates/golo.cs
 rm -rf public/static
 cp -R static public/
 
-echo 'Cleaning file `README.asciidoc`'
+# echo 'Cleaning file `README.asciidoc`'
 # rm README.asciidoc
