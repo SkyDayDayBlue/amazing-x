@@ -100,6 +100,28 @@ Sites
 * https://www.suo-url.cn/[短网址]
 * https://www.kuaizhan.com/[快站] - 
 
+Development Resources 
+-------------------------
+
+* https://fonts.google.com/[fonts] - great typography
+* https://developer.gitter.im/docs/welcome[Gitter.im] - maybe you can use these APIs to integrate  into your app to get IM feature
+
+Principle
+-----------
+
+* https://design.google/library/choosing-web-fonts-beginners-guide/[Choosing Web Fonts: A Beginner’s Guide] - Take the mystery out of font selection with our step-by-step guidance
+
+Automation
+-----------
+
+* https://fastlane.tools/[fastlane]  - App automation done right, https://docs.fastlane.tools/[docs]
+
+Code Labs
+--------------
+
+* https://flutter.io/codelabs/[flutter codelabs] 
+* https://codelabs.developers.google.com/[Google Developers Codelabs] - provide a guided, tutorial, hands-on coding experience. Most codelabs will step you through the process of building a small application, or adding a new feature to an existing application.
+
 Thanks
 -------
 
