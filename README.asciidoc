@@ -10,7 +10,7 @@ Amazing x space
 What is Amazing x?
 ------------------
 
-https://mit-license.org/[image:https://img.shields.io/github/license/mashape/apistatus.svg[License]]
+https://mit-license.org/[image:https://img.shields.io/badge/license-MIT-blue.svg?longCache=true&style=for-the-badge[License]]
 https://github.com/gardenias/amazing-x[image:https://img.shields.io/badge/amazing-12-green.svg?longCache=true&style=for-the-badge[Amazing-X]]
 
 image:https://picsum.photos/1000/800/?random[picsum.photos]
