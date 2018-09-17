@@ -9,7 +9,7 @@
 == What is Amazing x?
 
 https://mit-license.org/[image:https://img.shields.io/badge/license-MIT-blue.svg?longCache=true&style=for-the-badge[License]]
-https://github.com/gardenias/amazing-x[image:https://img.shields.io/badge/amazing-17-green.svg?longCache=true&style=for-the-badge[Amazing-X]]
+https://github.com/gardenias/amazing-x[image:https://img.shields.io/badge/amazing-13-green.svg?longCache=true&style=for-the-badge[Amazing-X]]
 
 image:https://picsum.photos/1000/800/?random[picsum.photos]
 
@@ -22,22 +22,23 @@ ________________________________________________________________________________
 * https://www.jhipster.tech/[JHipster] - Open Source application
 generator for creating Spring Boot + Angular/React projects in seconds!
 
-== Version Control
+=== Libs
 
-* https://buddy.works/[Buddy Works]
-* https://about.gitlab.com/[GitLab]
+* https://github.com/ocpsoft/prettytime[PrettyTime] - Social Style Date
+and Time Formatting for Java http://ocpsoft.org/prettytime/
 
-== Articles
+== Resources 
 
-* https://www.codeproject.com/Articles/42354/The-Art-of-Logging[The Art
-of Logging]
+* https://fonts.google.com/[fonts] - great typography
+* https://developer.gitter.im/docs/welcome[Gitter.im] - maybe you can use these APIs to integrate  into your app to get IM feature
+* https://gank.io[干货集中营] - 每日分享妹子图 和 技术干货，还有供大家中午休息的休闲视频
+* https://tutucloud.com[涂图] - 视频图像 & 人工智能
+* https://fir.im/[fir.im] - 应用测试和发布
+* https://realm.io/cn[realm] - 更好的移动端数据库意味着更好的移动端应用
+* https://www.suo-url.cn/[短网址]
+* https://www.kuaizhan.com/[快站]
 
-== Micro Services
-
-* https://getkong.org/[Kong] - Secure, Manage & Extend your APIs and
-Micro Services
-
-== Mobile Apps Development
+== Mobile Dev
 
 * https://www.nativescript.org/[NativeScript] - Build amazing iOS and
 Android apps with technology you already know Open source framework for
@@ -49,6 +50,27 @@ beautiful mobile apps.
 high-performance mobile applications with modern web development
 experience.
 
+=== Automation
+
+* https://fastlane.tools/[fastlane]  - App automation done right, https://docs.fastlane.tools/[docs]
+
+=== iOS
+
+* https://github.com/shaps80/Peek[Peek] - Inspect your iOS application
+at runtime. `http://shaps.me/peek`
+
+== DevOps
+
+=== Version Control
+
+* https://buddy.works/[Buddy Works]
+* https://about.gitlab.com/[GitLab]
+
+== Micro Services
+
+* https://getkong.org/[Kong] - Secure, Manage & Extend your APIs and
+Micro Services
+
 == Communication
 
 * https://www.stride.com/[Atlassian Stride] - Is the complete team
@@ -58,56 +80,31 @@ Self-hosted team communication, built for the enterprise
 * https://joinmastodon.org/[Mastodon] - The worldâ€™s largest free,
 open-source, decentralized microblogging network
 
-== Companies
-
-* Atlassian
-** https://www.atlassian.com/software[Products]
-
 == Docker Images
 
 * https://www.adminer.org/en/[Adminer] -
 `docker pull adminer`https://hub.docker.com/_/adminer/[[HERE]]
-
-== Unusual Libs
-
-* https://github.com/ocpsoft/prettytime[PrettyTime] - Social Style Date
-and Time Formatting for Java http://ocpsoft.org/prettytime/
-
-== iOS
-
-* https://github.com/shaps80/Peek[Peek] - Inspect your iOS application
-at runtime. `http://shaps.me/peek`
-
-== Sites
-
-* https://gank.io[干货集中营] - 每日分享妹子图 和 技术干货，还有供大家中午休息的休闲视频
-* https://tutucloud.com[涂图] - 视频图像 & 人工智能
-* https://fir.im/[fir.im] - 应用测试和发布
-* https://realm.io/cn[realm] - 更好的移动端数据库意味着更好的移动端应用
-* https://www.suo-url.cn/[短网址]
-* https://www.kuaizhan.com/[快站] 
-
-
-== Development Resources 
-
-* https://fonts.google.com/[fonts] - great typography
-* https://developer.gitter.im/docs/welcome[Gitter.im] - maybe you can use these APIs to integrate  into your app to get IM feature
-
-== Principle
-
-* https://design.google/library/choosing-web-fonts-beginners-guide/[Choosing Web Fonts: A Beginner’s Guide] - Take the mystery out of font selection with our step-by-step guidance
-
-== Automation
-
-* https://fastlane.tools/[fastlane]  - App automation done right, https://docs.fastlane.tools/[docs]
 
 == Codelabs
 
 * https://flutter.io/codelabs/[flutter codelabs] 
 * https://codelabs.developers.google.com/[Google Developers Codelabs] - provide a guided, tutorial, hands-on coding experience. Most codelabs will step you through the process of building a small application, or adding a new feature to an existing application.
 
+== Companies
+
+* Atlassian
+** https://www.atlassian.com/software[Products]
+
+== Principles
+
+* empty now
+
+== Articles
+
+* https://design.google/library/choosing-web-fonts-beginners-guide/[Choosing Web Fonts: A Beginner’s Guide] - Take the mystery out of font selection with our step-by-step guidance
+* https://www.codeproject.com/Articles/42354/The-Art-of-Logging[The Art
+of Logging]
+
 == Thanks
 
 * https://picsum.photos[Lorem Picsum] - Get a specified size and beautiful subject image
-
-
