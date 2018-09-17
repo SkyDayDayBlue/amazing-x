@@ -7,16 +7,12 @@
 :sectnums:
 :keywords: awesome, tools, java, engineer
 
-== What is Amazing x?
+_A list of frameworks, articles, libraries, software, articles and any other funny or useful things._
 
 https://mit-license.org/[image:https://img.shields.io/badge/license-MIT-blue.svg?longCache=true&style=for-the-badge[License]]
-https://github.com/gardenias/amazing-x[image:https://img.shields.io/badge/amazing-13-green.svg?longCache=true&style=for-the-badge[Amazing-X]]
+https://github.com/gardenias/amazing-x[image:https://img.shields.io/badge/amazing-12-green.svg?longCache=true&style=for-the-badge[Amazing-X]]
 
 image:https://picsum.photos/1000/800/?random[picsum.photos]
-
-___________________________________________________________________________________
-A curated list of awesome frameworks, articles, libraries, software and sites for My time.
-___________________________________________________________________________________
 
 == Java Hipster
 
@@ -38,6 +34,11 @@ and Time Formatting for Java http://ocpsoft.org/prettytime/
 * https://realm.io/cn[realm] - 更好的移动端数据库意味着更好的移动端应用
 * https://www.suo-url.cn/[短网址]
 * https://www.kuaizhan.com/[快站]
+
+=== Open APIs
+
+* https://talaikis.com/random_quotes_api/[Random quotes API]
+* https://theysaidso.com/api/[World's best quotes API]
 
 == Mobile Dev
 
