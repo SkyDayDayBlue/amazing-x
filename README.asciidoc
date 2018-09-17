@@ -1,7 +1,8 @@
 # Amazing x space
-:author: Yimin,Wu
+:author: 栀子花
 :email: gardenia.wu@outlook.com
-:toc: left
+:revremark: https://yimin.io
+:toc: right
 :source-highlighter: prettify
 :sectnums:
 :keywords: awesome, tools, java, engineer
