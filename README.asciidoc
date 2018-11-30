@@ -81,6 +81,7 @@ communication solution
 Self-hosted team communication, built for the enterprise
 * https://joinmastodon.org/[Mastodon] - The worldâ€™s largest free,
 open-source, decentralized microblogging network
+* https://github.com/RocketChat/Rocket.Chat[RocketChat/Rocket.Chat] - Have your own Slack like online chat, built with Meteor
 
 == Docker Images
 

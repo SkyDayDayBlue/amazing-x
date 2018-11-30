@@ -1,0 +1,34 @@
+# Flutter
+:author: 栀子花
+:email: gardenia.wu@outlook.com
+:revremark: https://yimin.io
+:toc: right
+:source-highlighter: prettify
+:sectnums:
+:keywords: google flutter
+
+image:https://camo.githubusercontent.com/2fa9c4482c77e7ce71a7aa0776f2236624b796e4/68747470733a2f2f6d617263696e737a616c656b2e706c2f77702d636f6e74656e742f75706c6f6164732f323031382f30352f66665f31362e676966[1,200,480]    image:https://user-images.githubusercontent.com/1295961/42728108-34e485a0-87b3-11e8-94af-224f81bec82d.gif[2,200,480]   image:https://user-images.githubusercontent.com/1295961/42548085-a07fcaf4-84c5-11e8-9fdc-7aa86c46f316.png[3,200,480]    image:https://raw.githubusercontent.com/letsar/flutter_staggered_grid_view/master/doc/images/dynamic_tile_sizes.gif[4,200,480]
+
+- https://flutter.io/[flutter-io],
+- https://github.com/Solido/awesome-flutter[awesome-flutter]
+
+## Pick from https://github.com/Solido/awesome-flutter[awesome-flutter]
+
+### Libs
+
+- https://github.com/fluttercommunity/flutter_launcher_icons[flutter_launcher_icons] - A package which simplifies the task of updating your Flutter app's launcher icon
+
+### Redux
+
+- https://github.com/brianegan/flutter_redux[Redux][332★] - Built to work with redux.dart, utilities that allow you to easily consume a Redux Store to build Widgets.
+- https://github.com/google/flutter_flux[Flutter_flux][202★] - Implementation of the Flux framework by Google.
+- https://github.com/hillelcoren/flutter-redux-starter[flutter-redux-starter] - Starter project and code generator for Flutter/Redux
+
+### Routing
+- https://github.com/theyakka/fluro[fluro] - is a Flutter routing library that adds flexible routing options like wildcards, named parameters and clear route definitions. https://theyakka.com
+
+
+## Dev
+
+- https://flutterstudio.app/[AppBuilder]
+

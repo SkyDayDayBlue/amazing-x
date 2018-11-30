@@ -1,0 +1,19 @@
+# Mac Preparing
+
+## Runtime Version Mamagement
+- https://sdkman.io/[SDKMAN] - The Software Development Kit Manager,is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates. Formerly known as GVM the Groovy enVironment Manager, it was inspired by the very useful https://rvm.io/[RVM] and https://github.com/sstephenson/rbenv[rbenv] tools, used at large by the Ruby community. Get started now!  `$ curl -s "https://get.sdkman.io" | bash`
+- https://github.com/creationix/nvm[NVP] -  Node Version Manager - Simple bash script to manage multiple active node.js versions.
+- https://github.com/pyenv/pyenv[pyenv/pyenv] - Simple Python version management
+
+
+## Go
+
+## Java
+
+## Python
+
+- https://www.anaconda.com/download/#macos[Anaconda] - The Most Popular Python Data Science Platform,Conda is a powerful package manager and environment manager that you use with command line commands at the Anaconda Prompt  https://conda.io/docs/user-guide/getting-started.html[Docs]
+* https://repo.anaconda.com/archive/Anaconda3-5.2.0-MacOSX-x86_64.pkg[64-Bit Graphical Installer (613 MB)]
+* https://repo.anaconda.com/archive/Anaconda3-5.2.0-MacOSX-x86_64.sh[64-Bit Command-Line Installer (523 MB)]
+
+## Mac terminal
