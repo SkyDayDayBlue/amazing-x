@@ -25,6 +25,7 @@ git worktree add -B gh-pages public origin/gh-pages
 
 echo "Copy from build to public"
 cp -R build/* public/
+mv public/README.html public/index.html
 
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "$1"
