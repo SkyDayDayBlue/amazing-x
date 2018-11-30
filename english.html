@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.8">
+<title>English</title>
+<style>
+/* https://github.com/bclozel/asciidoctor-stylesheet-factory/tree/spring */
+/* ===================================================================== */
+
+@import url('stylesheets/asciidoctor-spring.css');
+
+/* https://github.com/asciidoctor/asciidoctor/issues/699#issuecomment-321066006 */
+/* ============================================================================ */
+
+@import url('tocbot-3.0.2/tocbot.css');
+
+#tocbot a.toc-link.node-name--H1{ font-style: italic }
+@media screen{
+#tocbot > ul.toc-list{ margin-bottom: 0.5em; margin-left: 0.125em }
+#tocbot ul.sectlevel0, #tocbot a.toc-link.node-name--H1 + ul{
+  padding-left: 0 }
+#tocbot a.toc-link{ height:100% }
+.is-collapsible{ max-height:3000px; overflow:hidden; }
+.is-collapsed{ max-height:0 }
+.is-active-link{ font-weight:700 }
+}
+@media print{
+#tocbot a.toc-link.node-name--H4{ display:none }
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="english" class="book toc2 toc-left">
+<div id="header">
+<h1>English</h1>
+<div class="details">
+<span id="revnumber">version 1.0</span>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#online-directory">1. Online Directory</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="online-directory"><a class="anchor" href="#online-directory"></a>1. Online Directory</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.vocabulary.com/">Vocabulary.com</a> - combines the world&#8217;s smartest dictionary with an adaptive learning game that will have you mastering new words in no time.</p>
+</li>
+<li>
+<p><a href="https://www.dictionary.com/">Dictionary</a> - Word of the Day, Free Crossword Solver and Answers on Dictionary.com, &#8230;&#8203;</p>
+</li>
+<li>
+<p><a href="http://language.chinadaily.com.cn/">Language Tips</a> -</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Version 1.0<br>
+Last updated 2018-11-30 16:35:21 +0800
+</div>
+</div>
+<script src="tocbot-3.0.2/tocbot.js"></script>
+<script>
+
+    // Tocbot dynamic TOC, works with tocbot 3.0.2
+    // Source: https://github.com/asciidoctor/asciidoctor/issues/699#issuecomment-321066006
+
+    var oldtoc = document.getElementById('toctitle').nextElementSibling;
+    var newtoc = document.createElement('div');
+    newtoc.setAttribute('id', 'tocbot');
+    newtoc.setAttribute('class', 'js-toc');
+    oldtoc.parentNode.replaceChild(newtoc, oldtoc);
+    tocbot.init({ contentSelector: '#content',
+        headingSelector: 'h1, h2, h3, h4, h5',
+        smoothScroll: false });
+    var handleTocOnResize = function() {
+        var width = window.innerWidth
+                    || document.documentElement.clientWidth
+                    || document.body.clientWidth;
+        if (width < 768) {
+            tocbot.refresh({ contentSelector: '#content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 6,
+                activeLinkClass: 'ignoreactive',
+                throttleTimeout: 1000,
+                smoothScroll: false });
+        }
+        else {
+            tocbot.refresh({ contentSelector: '#content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                smoothScroll: false });
+        }
+    };
+    window.addEventListener('resize', handleTocOnResize);
+    handleTocOnResize();
+
+
+    var link = document.createElement("a");
+    link.setAttribute("href", "index.html");
+    link.innerHTML = "<i class=\"fa fa-chevron-left\" aria-hidden=\"true\"></i>&nbsp;&nbsp;Back to index";
+    var p = document.createElement("p");
+    p.appendChild(link);
+    var toc = document.getElementById('toc')
+    var next = document.getElementById('toctitle').nextElementSibling;
+    toc.insertBefore(p, next);
+
+</script>
+</body>
+</html>

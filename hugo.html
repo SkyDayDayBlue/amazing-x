@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.8">
+<title>Hugo</title>
+<style>
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="hugo" class="book toc2 toc-left">
+<div id="header">
+<h1>Hugo</h1>
+<div class="details">
+<span id="revnumber">version 1.0</span>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#after-hugo-new-site-site-name">1. After <code>hugo new site &lt;site-name&gt;</code></a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="after-hugo-new-site-site-name"><a class="anchor" href="#after-hugo-new-site-site-name"></a>1. After <code>hugo new site &lt;site-name&gt;</code></h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/, or
+   create your own with the "hugo new theme &lt;THEMENAME&gt;" command.
+2. Perhaps you want to add some content. You can add single files
+   with "hugo new &lt;SECTIONNAME&gt;/&lt;FILENAME&gt;.&lt;FORMAT&gt;".
+3. Start the built-in live server via "hugo server".</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>git checkout --orphan gh-pages
+git reset --hard
+git commit --allow-empty -m "Initializing gh-pages branch"
+git push upstream gh-pages
+git checkout master</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Version 1.0<br>
+Last updated 2018-11-30 16:15:13 +0800
+</div>
+</div>
+</body>
+</html>

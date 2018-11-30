@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.8">
+<title>Development</title>
+<style>
+/* https://github.com/bclozel/asciidoctor-stylesheet-factory/tree/spring */
+/* ===================================================================== */
+
+@import url('stylesheets/asciidoctor-spring.css');
+
+/* https://github.com/asciidoctor/asciidoctor/issues/699#issuecomment-321066006 */
+/* ============================================================================ */
+
+@import url('tocbot-3.0.2/tocbot.css');
+
+#tocbot a.toc-link.node-name--H1{ font-style: italic }
+@media screen{
+#tocbot > ul.toc-list{ margin-bottom: 0.5em; margin-left: 0.125em }
+#tocbot ul.sectlevel0, #tocbot a.toc-link.node-name--H1 + ul{
+  padding-left: 0 }
+#tocbot a.toc-link{ height:100% }
+.is-collapsible{ max-height:3000px; overflow:hidden; }
+.is-collapsed{ max-height:0 }
+.is-active-link{ font-weight:700 }
+}
+@media print{
+#tocbot a.toc-link.node-name--H4{ display:none }
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="dev" class="book toc2 toc-left">
+<div id="header">
+<h1>Development</h1>
+<div class="details">
+<span id="revnumber">version 1.0</span>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#linux">1. Linux Commands</a>
+<ul class="sectlevel2">
+<li><a href="#the-nohup-command">1.1. The nohup command</a></li>
+</ul>
+</li>
+<li><a href="#git">2. Git</a>
+<ul class="sectlevel2">
+<li><a href="#commands">2.1. Commands</a></li>
+</ul>
+</li>
+<li><a href="#maven">3. Maven</a>
+<ul class="sectlevel2">
+<li><a href="#common">3.1. Common</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="linux"><a class="anchor" href="#linux"></a>1. Linux Commands</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="the-nohup-command"><a class="anchor" href="#the-nohup-command"></a>1.1. The nohup command</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><code>$ nohup myLongRunningJob.sh &amp;</code></p>
+</li>
+<li>
+<p><code>$ java -jar myJar.jar &gt;/dev/null 2&gt;&amp;1 &amp;</code></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="git"><a class="anchor" href="#git"></a>2. Git</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="commands"><a class="anchor" href="#commands"></a>2.1. Commands</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>rebase from root: <code>git rebase -i --root</code></p>
+</li>
+<li>
+<p>change the commit author: <code>git commit --amend --author "username &lt;<a href="mailto:email@outlook.com">email@outlook.com</a>&gt;"</code></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="maven"><a class="anchor" href="#maven"></a>3. Maven</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="common"><a class="anchor" href="#common"></a>3.1. Common</h3>
+<div class="sect3">
+<h4 id="archetypegenerate"><a class="anchor" href="#archetypegenerate"></a>3.1.1. archetype:generate</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>$&gt; mvn archetype:generate -DgroupId=com.gardenias.&lt;project&gt;. -DartifactId=&lt;project-name&gt; -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Version 1.0<br>
+Last updated 2018-11-30 16:35:26 +0800
+</div>
+</div>
+<script src="tocbot-3.0.2/tocbot.js"></script>
+<script>
+
+    // Tocbot dynamic TOC, works with tocbot 3.0.2
+    // Source: https://github.com/asciidoctor/asciidoctor/issues/699#issuecomment-321066006
+
+    var oldtoc = document.getElementById('toctitle').nextElementSibling;
+    var newtoc = document.createElement('div');
+    newtoc.setAttribute('id', 'tocbot');
+    newtoc.setAttribute('class', 'js-toc');
+    oldtoc.parentNode.replaceChild(newtoc, oldtoc);
+    tocbot.init({ contentSelector: '#content',
+        headingSelector: 'h1, h2, h3, h4, h5',
+        smoothScroll: false });
+    var handleTocOnResize = function() {
+        var width = window.innerWidth
+                    || document.documentElement.clientWidth
+                    || document.body.clientWidth;
+        if (width < 768) {
+            tocbot.refresh({ contentSelector: '#content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 6,
+                activeLinkClass: 'ignoreactive',
+                throttleTimeout: 1000,
+                smoothScroll: false });
+        }
+        else {
+            tocbot.refresh({ contentSelector: '#content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                smoothScroll: false });
+        }
+    };
+    window.addEventListener('resize', handleTocOnResize);
+    handleTocOnResize();
+
+
+    var link = document.createElement("a");
+    link.setAttribute("href", "index.html");
+    link.innerHTML = "<i class=\"fa fa-chevron-left\" aria-hidden=\"true\"></i>&nbsp;&nbsp;Back to index";
+    var p = document.createElement("p");
+    p.appendChild(link);
+    var toc = document.getElementById('toc')
+    var next = document.getElementById('toctitle').nextElementSibling;
+    toc.insertBefore(p, next);
+
+</script>
+</body>
+</html>
