@@ -1,0 +1,10 @@
+[[maven]]
+= Maven
+
+== Common
+
+=== archetype:generate
+
+```
+$> mvn archetype:generate -DgroupId=com.gardenias.<project>. -DartifactId=<project-name> -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+```

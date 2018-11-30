@@ -1,0 +1,8 @@
+[[english]]
+= English
+:toc: left
+:toclevels: 3
+:tabsize: 4
+:docinfo1:
+
+include::english/directory.adoc[leveloffset=+1]

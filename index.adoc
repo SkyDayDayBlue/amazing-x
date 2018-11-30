@@ -1,0 +1,24 @@
+# Amazing x space
+:author: 栀子花
+:email: gardenia.wu@outlook.com
+:revremark: https://yimin.io,https://amzing-x.com
+:source-highlighter: prettify
+:sectnums:
+:keywords: awesome, tools, java, engineer
+
+_A list of frameworks, articles, libraries, software, articles and any other funny or useful things._
+
+https://mit-license.org/[image:https://img.shields.io/badge/license-MIT-blue.svg?longCache=true&style=for-the-badge[License]]
+https://github.com/gardenias/amazing-x[image:https://img.shields.io/badge/amazing-12-green.svg?longCache=true&style=for-the-badge[Amazing-X]]
+
+The documentation is divided into several sections:
+
+[horizontal]
+<<dev.adoc#dev,Development>> :: The Development notes
+<<java.adoc#java,Java>> :: everything you need know about java.
+<<english.adoc#english,English>> :: some inspired me or needed by myself about English.
+<<tech.adoc#tech,Tech>> :: tech list, no limitation.
+<<workstation.adoc#workstation,Work Station>> :: i installed and used on my work pc.
+
+
+image:https://picsum.photos/1000/800/?random[picsum.photos]

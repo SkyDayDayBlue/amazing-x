@@ -1,6 +1,7 @@
-# Hugo
+[[hugo]]
+= Hugo
 
-## After `hugo new site <site-name>`
+== After `hugo new site <site-name>`
 ```
 1. Download a theme into the same-named folder.
    Choose a theme from https://themes.gohugo.io/, or
@@ -9,7 +10,6 @@
    with "hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>".
 3. Start the built-in live server via "hugo server".
 ```
-
 
 git checkout --orphan gh-pages
 git reset --hard

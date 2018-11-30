@@ -1,0 +1,10 @@
+[[workstation]]
+= Work Station
+:toc: left
+:toclevels: 3
+:tabsize: 4
+:docinfo1:
+
+There are so many helpfully softwares for different platform. Pls just install and enjoy. every one I deeply used.
+
+include::workstation/mac.adoc[leveloffset=+1]

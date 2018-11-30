@@ -1,0 +1,9 @@
+[[tech]]
+= Tech
+:toc: left
+:toclevels: 3
+:tabsize: 4
+:docinfo1:
+
+include::tech/flutter.adoc[leveloffset=+1]
+include::tech/hugo.adoc[leveloffset=+1]

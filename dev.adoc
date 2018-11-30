@@ -1,0 +1,10 @@
+[[dev]]
+= Development
+:toc: left
+:toclevels: 3
+:tabsize: 4
+:docinfo1:
+
+include::dev/linux.adoc[leveloffset=+1]
+include::dev/git.adoc[leveloffset=+1]
+include::dev/maven.adoc[leveloffset=+1]

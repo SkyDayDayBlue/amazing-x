@@ -1,0 +1,7 @@
+[[linux]]
+# Linux Commands
+
+## The nohup command
+
+1. `$ nohup myLongRunningJob.sh &`
+2. `$ java -jar myJar.jar >/dev/null 2>&1 &`
