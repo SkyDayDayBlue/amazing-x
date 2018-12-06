@@ -1,0 +1,29 @@
+[tech_golang]
+= Go
+
+== Library
+
+=== common
+
+1. https://github.com/go-kit/kit[kit] - A standard library for microservices
+
+=== HttpClient
+
+1. https://github.com/gojektech/heimdall[heimdall] - An enhanced HTTP client for Go http://gojek.tech
+2. https://github.com/sethgrid/pester[pester] - Go (golang) http calls with retries and backoff
+3. https://github.com/dghubble/sling[sling] - A Go HTTP client library for creating and sending API requests
+4. https://github.com/h2non/gentleman[gentleman] - Full-featured, plugin-oriented, extensible HTTP client toolkit for Go
+5. https://github.com/levigross/grequests[grequests] - A Go "clone" of the great and famous Requests library
+6. https://github.com/mholt/caddy[caddy] - Fast, cross-platform HTTP/2 web server with automatic HTTPS https://caddyserver.com
+
+=== WebFramework
+
+1. https://github.com/mingrammer/go-web-framework-stars[go-web-framework-stars] - ⭐️ Web frameworks for Go, most starred on Github
+2. https://echo.labstack.com/[echo] - High performance, extensible, minimalist Go web framework
+
+
+=== ORM
+
+1. https://github.com/jinzhu/gorm[gorm] - The fantastic ORM library for Golang, aims to be developer friendly
+
+

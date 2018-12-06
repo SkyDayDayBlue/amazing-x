@@ -1,6 +1,26 @@
-# Mac Preparing
+= Mac Preparing
 
-## Runtime Version Mamagement
+== terminal
+1. iTerm2:
+
+    `brew cask install iterm2`
+
+2. ohMyZsh:
+
+    `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+
+3. Syntax highlighting: `brew install zsh-syntax-highlighting`
+4. zsh-autosuggestions: `brew install zsh-autosuggestions`
+5. https://github.com/zsh-users[zsh-users] - Zsh community projects
+6. Theme:
+** https://github.com/bhilburn/powerlevel9k/wiki/Show-Off-Your-Config[powerlevel9k]
+** https://draculatheme.com/[draculatheme]
+7. https://github.com/powerline/fonts[fonts] - Patched fonts for Powerline users.
+
+== Package Manager
+1. https://gofi.sh/index.html[GoFish] -  is a cross-platform systems package manager, bringing the ease of use of Homebrew to Linux and Windows.
+
+== RVM
 - https://sdkman.io/[SDKMAN] - The Software Development Kit Manager,is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates. Formerly known as GVM the Groovy enVironment Manager, it was inspired by the very useful https://rvm.io/[RVM] and https://github.com/sstephenson/rbenv[rbenv] tools, used at large by the Ruby community. Get started now!  `$ curl -s "https://get.sdkman.io" | bash`
 - https://github.com/creationix/nvm[NVP] -  Node Version Manager - Simple bash script to manage multiple active node.js versions.
 - https://github.com/pyenv/pyenv[pyenv/pyenv] - Simple Python version management

@@ -1,0 +1,7 @@
+[[java_micro]]
+
+= MicroServices
+
+== Framework
+1. https://github.com/oracle/helidon[Helidon] - from Oracle, Java libraries for writing microservices.
+2. 

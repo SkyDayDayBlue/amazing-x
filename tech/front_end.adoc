@@ -1,0 +1,13 @@
+[[tech_web]]
+= Web
+
+== Admin panels
+1. https://github.com/tabler/tabler[tabler] - Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4
+
+== File Upload
+
+1. https://github.com/pqina/filepond[filepond
+] - A flexible and fun JavaScript file upload library
+
+== Console
+1. https://github.com/terkelg/prompts[prompts] - ❯ Lightweight, beautiful and user-friendly interactive prompts.

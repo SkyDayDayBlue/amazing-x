@@ -15,21 +15,26 @@ image:https://camo.githubusercontent.com/2fa9c4482c77e7ce71a7aa0776f2236624b796e
 
 ## Pick from https://github.com/Solido/awesome-flutter[awesome-flutter]
 
-### Libs
+=== Libs
 
 - https://github.com/fluttercommunity/flutter_launcher_icons[flutter_launcher_icons] - A package which simplifies the task of updating your Flutter app's launcher icon
 
-### Redux
+=== Redux
 
 - https://github.com/brianegan/flutter_redux[Redux][332★] - Built to work with redux.dart, utilities that allow you to easily consume a Redux Store to build Widgets.
 - https://github.com/google/flutter_flux[Flutter_flux][202★] - Implementation of the Flux framework by Google.
 - https://github.com/hillelcoren/flutter-redux-starter[flutter-redux-starter] - Starter project and code generator for Flutter/Redux
 
-### Routing
+=== Routing
 - https://github.com/theyakka/fluro[fluro] - is a Flutter routing library that adds flexible routing options like wildcards, named parameters and clear route definitions. https://theyakka.com
 
 
-## Dev
+== Dev
 
 - https://flutterstudio.app/[AppBuilder]
+
+== Practice
+
+1. https://github.com/tomialagbe/flutter_ui_challenges[flutter_ui_challenges]
+
 
