@@ -1,0 +1,6 @@
+[[dev_handbook]]
+= Handbook
+
+== meteor/meteor
+
+Meteor, the JavaScript App Platform https://www.meteor.com

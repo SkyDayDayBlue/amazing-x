@@ -1,0 +1,12 @@
+[[de_mysql]]
+
+https://dev.mysql.com/doc/[DOCUMENTATION]
+
+= 13.7.1.6 GRANT Syntax
+
+```sql
+CREATE USER 'zabbix'@'localhost' IDENTIFIED BY '3Wx73vB78YP4HBW9';
+CREATE USER 'zabbix'@'%' IDENTIFIED BY '3Wx73vB78YP4HBW9';
+grant all privileges on zabbix.* to 'zabbix'@'localhost';
+grant all privileges on zabbix.* to 'zabbix'@'%';
+```
