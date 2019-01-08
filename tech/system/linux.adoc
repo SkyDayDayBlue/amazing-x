@@ -1,8 +1,37 @@
 [[linux]]
-# Linux Commands
+= Linux Commands
 
-## The nohup command
+== The nohup command
 
 1. `$ nohup myLongRunningJob.sh &`
 2. `$ java -jar myJar.jar >/dev/null 2>&1 &`
 
+== Network
+
+* http://srparish.net/scripts/[nettop] shows packet types, sorts by either size or number of packets.
+* http://ettercap.sf.net/[ettercap] is a network sniffer/interceptor/logger for ethernet
+* http://purl.org/net/darkstat/[darkstat] breaks down traffic by host, protocol, etc. Geared towards analysing traffic gathered over a longer period, rather than `live' viewing.
+* http://ex-parrot.com/~pdw/iftop/[iftop] shows network traffic by service and host
+* http://gael.roualland.free.fr/ifstat/[ifstat] shows network traffic by interface in a vmstat/iostat-like manner
+* https://github.com/akshayKMR/hogwatch[hogwatch] A bandwidth monitor(per process) with graphs for desktop/web.
+
+=== iptables
+
+1.  IP tables
+    $ sudo iptables -I INPUT -s 172.18.4.44 -j DROP
+    $ sudo iptables -D INPUT -s 172.18.4.44 -j DROP
+
+
+=== nmap
+
+=== netcat
+
+* http://netcat.sourceforge.net/[here]
+
+=== iftop
+
+== System
+
+* http://hisham.hm/htop/[htop] - This is htop, an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses.
+
+* http://dag.wiee.rs/home-made/dstat/[dstat] - Dstat is a versatile replacement for vmstat, iostat, netstat and ifstat. Dstat overcomes some of their limitations and adds some extra features, more counters and flexibility. Dstat is handy for monitoring systems during performance tuning tests, benchmarks or troubleshooting.

@@ -22,6 +22,12 @@ There are so many helpfully softwares for different platform. Pls just install a
 Modern command line HTTP client – user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc. https://twitter.com/clihttp https://httpie.org
 9. https://github.com/eliangcs/http-prompt/[http-prompt] image:https://img.shields.io/github/stars/eliangcs/http-prompt.svg?style=for-the-badge&colorB=GREEN&label=STARTS[stars] +
 HTTP Prompt is an interactive command-line HTTP client featuring autocomplete and syntax highlighting.
+10. https://github.com/emre/storm[storm] image:https://img.shields.io/github/stars/emre/storm.svg?style=for-the-badge&colorB=YELLOW&label=STARTS[stars]   +
+Manage your SSH like a boss.
+11. https://github.com/sharkdp/fd[sharkdp/fd] image:https://img.shields.io/github/stars/sharkdp/fd.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars]   +
+A simple, fast and user-friendly alternative to 'find'
+
+== Benchmarking
 
 == Package Manager
 1. https://gofi.sh/index.html[GoFish] -  is a cross-platform systems package manager, bringing the ease of use of Homebrew to Linux and Windows.
@@ -44,7 +50,6 @@ HTTP Prompt is an interactive command-line HTTP client featuring autocomplete an
 ==== Install Information
 * `brew install python`
 * export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-* 
 
 ```
 Python has been installed as
@@ -71,3 +76,10 @@ See: https://docs.brew.sh/Homebrew-and-Python
 1. gofish
 
     `curl -fsSL https://raw.githubusercontent.com/fishworks/gofish/master/scripts/install.sh | bash; gofish init`
+
+
+
+== Develop
+
+* https://github.com/localtunnel/localtunnel[localtunnel] image:https://img.shields.io/github/stars/localtunnel/localtunnel.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars]   +
+Expose yourself to the world
