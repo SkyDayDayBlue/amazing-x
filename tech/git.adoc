@@ -1,0 +1,24 @@
+[[git]]
+= Git
+
+== Commands
+** rebase from root: `git rebase -i --root`
+** change the commit author: `git commit --amend --author "username <email@outlook.com>"`
+
+== Common Alais
+
+* gl='git pull'
+* glg='git log --stat'
+* glgg='git log --graph'
+* glgga='git log --graph --decorate --all'
+* glgm='git log --graph --max-count=10'
+* glgp='git log --stat -p'
+* glo='git log --oneline --decorate'
+* globurl='noglob urlglobber '
+* glod='git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset'\'
+* glods='git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset'\'' --date=short'
+* glog='git log --oneline --decorate --graph'
+* gloga='git log --oneline --decorate --graph --all'
+* glol='git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'
+* glola='git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --all'
+* glp=_git_log_prettily

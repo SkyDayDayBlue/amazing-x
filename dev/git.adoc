@@ -1,6 +1,0 @@
-[[git]]
-= Git
-
-== Commands
-** rebase from root: `git rebase -i --root`
-** change the commit author: `git commit --amend --author "username <email@outlook.com>"`

@@ -1,4 +1,6 @@
-= Mac Preparing
+= Repapering for Mac workstation
+
+There are so many helpfully softwares for different platform. Pls just install and enjoy. every one I deeply used.
 
 == terminal
 1. iTerm2:
@@ -16,6 +18,10 @@
 ** https://github.com/bhilburn/powerlevel9k/wiki/Show-Off-Your-Config[powerlevel9k]
 ** https://draculatheme.com/[draculatheme]
 7. https://github.com/powerline/fonts[fonts] - Patched fonts for Powerline users.
+8. https://github.com/jakubroztocil/httpie[httpie] image:https://img.shields.io/github/stars/jakubroztocil/httpie.svg?style=for-the-badge&colorB=RED&label=STARTS[stars]   +
+Modern command line HTTP client – user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc. https://twitter.com/clihttp https://httpie.org
+9. https://github.com/eliangcs/http-prompt/[http-prompt] image:https://img.shields.io/github/stars/eliangcs/http-prompt.svg?style=for-the-badge&colorB=GREEN&label=STARTS[stars] +
+HTTP Prompt is an interactive command-line HTTP client featuring autocomplete and syntax highlighting.
 
 == Package Manager
 1. https://gofi.sh/index.html[GoFish] -  is a cross-platform systems package manager, bringing the ease of use of Homebrew to Linux and Windows.
@@ -25,15 +31,43 @@
 - https://github.com/creationix/nvm[NVP] -  Node Version Manager - Simple bash script to manage multiple active node.js versions.
 - https://github.com/pyenv/pyenv[pyenv/pyenv] - Simple Python version management
 
+== Go
 
-## Go
+== Java
 
-## Java
-
-## Python
+== Python
 
 - https://www.anaconda.com/download/#macos[Anaconda] - The Most Popular Python Data Science Platform,Conda is a powerful package manager and environment manager that you use with command line commands at the Anaconda Prompt  https://conda.io/docs/user-guide/getting-started.html[Docs]
 * https://repo.anaconda.com/archive/Anaconda3-5.2.0-MacOSX-x86_64.pkg[64-Bit Graphical Installer (613 MB)]
 * https://repo.anaconda.com/archive/Anaconda3-5.2.0-MacOSX-x86_64.sh[64-Bit Command-Line Installer (523 MB)]
 
-## Mac terminal
+==== Install Information
+* `brew install python`
+* export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+* 
+
+```
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python/libexec/bin
+
+If you need Homebrew's Python 2.7 run
+  brew install python@2
+
+You can install Python packages with
+  pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.7/site-packages
+
+See: https://docs.brew.sh/Homebrew-and-Python
+```
+
+
+== Mac terminal
+
+1. gofish
+
+    `curl -fsSL https://raw.githubusercontent.com/fishworks/gofish/master/scripts/install.sh | bash; gofish init`

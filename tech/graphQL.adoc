@@ -1,9 +1,0 @@
-[[tec_graphQL]]
-= GraphQL
-
-== Tools
-
-=== GraphQL Explorer
-
-1. https://github.com/imolorhe/altair[imolorhe/altair] -  A beautiful feature-rich GraphQL Client for all platforms. https://altair.sirmuel.design/
-2. https://github.com/andev-software/graphql-ide[graphql-ide] - GraphQL IDE - An extensive IDE for exploring GraphQL API's

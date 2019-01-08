@@ -1,8 +1,11 @@
-[[tech_data_structure]]
-= DataStructure
+[[tech_algorithm]]
+= Algorithm And Data Structure
 
-== Tree
+== Algorithm
+
+== Data Structure
+
+=== Tree
 
 1. B+
 ** https://www.infoq.cn/article/of*Qxw5G4c3ulpDyIyay[] MySQL · B+ 树并发]控制机制的前世今生
-

@@ -1,4 +1,4 @@
-[[dev_markdown]]
+[[dev_doc_writing]]
 = Document Writing
 
 == LaTex For pdf

@@ -1,7 +1,17 @@
 [[online-directory]]
 = Online Directory
 
+== Directory
+
 - https://www.vocabulary.com/[Vocabulary.com] - combines the world's smartest dictionary with an adaptive learning game that will have you mastering new words in no time.
 - https://www.dictionary.com/[Dictionary] - Word of the Day, Free Crossword Solver and Answers on Dictionary.com, ...
 - http://language.chinadaily.com.cn/[Language Tips] -
 - https://www.goodwordguide.com/[Good Word Guide] - Quickly finds accurate words and provides easy to understand word definitions with audio pronunciation.
+
+== Vocabulary Levels Test
+
+- http://www.angelfire.com/ok5/jwalters/preactivelevelsinstructions.html[Angelfire] - Active Vocabulary Levels Test
+- http://testyourvocab.com/[testyourvocab.com] - Test your vocab
+- http://www.angelfire.com/ok5/jwalters/preactivelevels.html[] - Active Vocabulary Levels test
+
+
