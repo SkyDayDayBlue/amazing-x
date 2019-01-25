@@ -83,3 +83,28 @@ See: https://docs.brew.sh/Homebrew-and-Python
 
 * https://github.com/localtunnel/localtunnel[localtunnel] image:https://img.shields.io/github/stars/localtunnel/localtunnel.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars]   +
 Expose yourself to the world
+
+
+
+== Desktop
+
+* lolcat
+* figlet
+* cowsay
+* http://byobu.co/[Byobu] - is a GPLv3 open source text-based window manager and terminal multiplexer.
+* https://github.com/jingweno/ccat[ccat] -  is the colorizing cat. It works similar to cat but displays content with syntax highlighting.
+* https://github.com/chrisallenlane/cheat[cheat] - cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
+* https://github.com/pindexis/marker[pindexis/marker] - is a command palette for the terminal. It lets you bookmark commands (or commands templates) and easily retreive them with the help of a real-time fuzzy matcher.
+* https://github.com/tldr-pages/tldr[tldr] - Simplified and community-driven man pages http://tldr-pages.github.io/
+* https://asciinema.org/[asciinema] - Record and share your terminal sessions, the right way.
+
+
+https://github.com/sshconfigio/sshconfigio.github.io#remote-copy
+
+https://github.com/alebcay/awesome-shell
+https://www.tecmint.com/20-funny-commands-of-linux-or-linux-is-fun-in-terminal/
+https://www.tecmint.com/linux-funny-commands/
+https://www.tecmint.com/play-with-word-and-character-counts-in-linux/
+https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/
+https://www.tecmint.com/play-with-word-and-character-counts-in-linux/
+

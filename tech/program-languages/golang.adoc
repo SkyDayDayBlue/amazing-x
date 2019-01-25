@@ -26,4 +26,9 @@
 
 1. https://github.com/jinzhu/gorm[gorm] - The fantastic ORM library for Golang, aims to be developer friendly
 
+=== properties
+1. https://github.com/spf13/viper[spf13/viper] image:https://img.shields.io/github/stars/spf13/viper.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - Go configuration with fangs
+2. https://tonybai.com/2015/07/01/config-solutions-for-golang-app/[Golang????????]
+
+
 

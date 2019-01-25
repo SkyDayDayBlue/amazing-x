@@ -1,0 +1,17 @@
+[[tm]]
+= Targets Management
+
+== Learning
+
+
+== Life
+
+== Reading
+
+== Project Development
+
+=== AdminHub
+1. Motivation
+2. Description
+3. Reference
+** https://sourcerer.io/[sourcerer.io] - Let your commits advance your career.
