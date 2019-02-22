@@ -6,6 +6,13 @@
 === common
 
 1. https://github.com/go-kit/kit[kit] - A standard library for microservices
+2. https://github.com/sirupsen/logrus[logrus] image:https://img.shields.io/github/stars/sirupsen/logrus.svg?style=for-the-badge&colorB=READ&label=STARTS[stars] - Structured, pluggable logging for Go.
+3. http://labix.org/pipe[pipe] - Unix-like pipelines for Go,implements the equivalent of "cat article.ps | lpr":
+4. https://github.com/juju/errors[errors] image:https://img.shields.io/github/stars/juju/errors.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - Common juju errors and functions to annotate errors. Based on juju/errgo
+5. https://github.com/spf13/cobra[cobra] image:https://img.shields.io/github/stars/spf13/cobra.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - A Commander for modern Go CLI interactions
+6. https://github.com/urfave/cli[cli] image:https://img.shields.io/github/stars/urfave/cli.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - A simple, fast, and fun package for building command line apps in Go
+7. https://github.com/tsenart/vegeta[vegeta] image:https://img.shields.io/github/stars/tsenart/vegeta.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - HTTP load testing tool and library. It's over 9000!
+8 https://github.com/sahilm/fuzzy[fuzzy] image:https://img.shields.io/github/stars/sahilm/fuzzy.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - Go library that provides fuzzy string matching optimized for filenames and code symbols in the style of Sublime Text, VSCode, IntelliJ IDEA et al.
 
 === HttpClient
 
@@ -20,6 +27,7 @@
 
 1. https://github.com/mingrammer/go-web-framework-stars[go-web-framework-stars] - ⭐️ Web frameworks for Go, most starred on Github
 2. https://echo.labstack.com/[echo] - High performance, extensible, minimalist Go web framework
+3. https://github.com/gorilla/mux[mux] image:https://img.shields.io/github/stars/gorilla/mux.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - A powerful URL router and dispatcher for golang.
 
 
 === ORM
@@ -30,5 +38,18 @@
 1. https://github.com/spf13/viper[spf13/viper] image:https://img.shields.io/github/stars/spf13/viper.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - Go configuration with fangs
 2. https://tonybai.com/2015/07/01/config-solutions-for-golang-app/[Golang????????]
 
+=== Testing
+
+1. https://github.com/onsi/ginkgo[ginkgo] image:https://img.shields.io/github/stars/onsi/ginkgo.svg?style=for-the-badge&colorB=YELLOW&label=STARTS[stars] -  BDD Testing Framework for Go
+2. https://github.com/sclevine/agouti[agouti] image:https://img.shields.io/github/stars/sclevine/agouti.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - A WebDriver client and acceptance testing library for Go http://agouti.org
+3. https://github.com/stretchr/testify[testify] image:https://img.shields.io/github/stars/stretchr/testify.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - A toolkit with common assertions and mocks that plays nicely with the standard library
+4. http://labix.org/gocheck[gocheck] - Rich testing for the Go language
+
+=== HTTP/Websockets
+1. https://github.com/gorilla/websocket[websocket] image:https://img.shields.io/github/stars/gorilla/websocket.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - A WebSocket implementation for Go.
+
+
+=== Logging
+1. https://github.com/sirupsen/logrus[logrus] image:https://img.shields.io/github/stars/sirupsen/logrus.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - Structured, pluggable logging for Go.
 
 
