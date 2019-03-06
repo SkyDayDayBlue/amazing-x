@@ -26,6 +26,7 @@ HTTP Prompt is an interactive command-line HTTP client featuring autocomplete an
 Manage your SSH like a boss.
 11. https://github.com/sharkdp/fd[sharkdp/fd] image:https://img.shields.io/github/stars/sharkdp/fd.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars]   +
 A simple, fast and user-friendly alternative to 'find'
+12. https://github.com/skywind3000/z.lua[skywind3000/z.lua] image:https://img.shields.io/github/stars/skywind3000/z.lua.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] + A new cd command that helps you navigate faster by learning your habits
 
 == Benchmarking
 

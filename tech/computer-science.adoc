@@ -1,0 +1,7 @@
+[[tech_computer_science]]
+= Computer science
+
+== Wikipedia
+
+1. AD/ADC: analog to digital conversion
+2. 硬盘数据--->硬盘缓存---->内存---->CPU缓存--->CPU寄存器与运算器

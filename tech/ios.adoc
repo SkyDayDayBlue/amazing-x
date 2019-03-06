@@ -1,0 +1,5 @@
+[[tech_ios]]
+= iOS
+== Libs
+1. https://github.com/facebook/pop[facebook/pop]  image:https://img.shields.io/github/stars/facebook/pop.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - An extensible iOS and OS X animation library, useful for physics-based interactions.
+2. https://github.com/facebook/litho[facebook/litho] image:https://img.shields.io/github/stars/facebook/litho.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - A declarative framework for building efficient UIs on Android.

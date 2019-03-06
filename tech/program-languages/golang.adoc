@@ -1,5 +1,16 @@
 [tech_golang]
 = Go
+1.  https://golang.org/doc/[Golang Doc]
+2.  https://golang.org/doc/effective_go.html[Effective Go] -
+3.  https://golang.org/doc/diagnostics.html[Diagnostics] -
+4.  https://golang.org/doc/faq[Frequently Asked Questions (FAQ)]
+5.  https://github.com/golang/go/wiki[Go Wiki]
+6.  https://golang.org/pkg/[Packages]
+7.  https://golang.org/ref/spec[The Go Programming Language Specification]
+8   https://golang.org/ref/mem[The Go Memory Model]
+9.  https://blog.learngoprogramming.com/ - Learn Go Programming
+10. http://www.golangbootcamp.com/book[Go Bootcamp] - Everything you need to know to get started with Go.
+
 
 == Library
 

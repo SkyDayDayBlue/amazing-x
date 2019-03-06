@@ -1,0 +1,7 @@
+[tech_Java]
+= Java
+
+== Libraries
+=== Testing
+1. https://github.com/jsonzou/jmockdata[jmockdata] image:https://img.shields.io/github/stars/jsonzou/jmockdata.svg?style=for-the-badge&colorB=BLUE&label=STARTS[stars] - The plugin to mock the java data by random.
+

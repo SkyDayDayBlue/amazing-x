@@ -1,0 +1,23 @@
+[[tech_hazelcast]]
+= Hazelcast
+
+== Cluster State
+
+=== NO_MIGRATION:
+
+1. 该状态小数据不会在member之间移动(partition rebalancing and backup replications)
+2. 随着member的逐个重启，partitions会向最后村后的节点迁移，直到271个partition全部在一个member上
+3. 最后一个member shutdown后，发生（WARN  MigrationManager:168 - [172.18.1.61]:5701 [dev] [3.11.1] partitionId=251 is completely lost!）, 当前存活的所有members重建partitions
+4. start 最后关闭的member
+5. 修改集群状态到 ACTIVE, 重刷新 partitions； 数据 rebalancing
+6. 新节点无法加入集群,但是在状态变更为ACTIVE前，不会分配到分区，也不会有数据
+
+=== FROZEN
+
+1. 分区表锁定
+2. Caused by: com.hazelcast.spi.exception.TargetNotMemberException: Partition owner '[172.18.1.61]:5701' is not a member.
+3. 关闭后重启的节点，重新获得之前分配的分区
+4. 新节点无法加入集群
+    Node could not join cluster. Before join check failed node is going to shutdown now!
+    Reason of failure for node join: Cluster state either is locked or doesn't allow new members to join -> ClusterState{state=FROZEN, lock=LockGuard{lockOwner=null, lockOwnerId='null', lockExpiryTime=0}}
+    Node could not join cluster. Before join check failed node is going to shutdown now!

@@ -1,6 +1,40 @@
 [[linux]]
 = Linux Commands
 
+== Usage
+1. cpu: `lscpu`, `cat /proc/cpuinfo`
+2. memory: `free -h`, `cat /proc/meminfo `
+3. memory device: `dmidecode -t memory`
+4. disk: `lsblk`, `fdisk -l`
+5. network interface device: `lspci | grep -i 'eth`, `ifconfig -a`, `ethtool eth0`
+
+    ```
+    ethtool eth0
+    Settings for eth0:
+        Supported ports: [ TP MII ]
+        Supported link modes:   10baseT/Half 10baseT/Full
+                                100baseT/Half 100baseT/Full
+                                1000baseT/Half 1000baseT/Full #支持千兆半双工，全双工模式
+        Supported pause frame use: No
+        Supports auto-negotiation: Yes #支持自适应模式，一般都支持
+        Advertised link modes:  10baseT/Half 10baseT/Full
+                                100baseT/Half 100baseT/Full
+                                1000baseT/Half 1000baseT/Full
+        Advertised pause frame use: Symmetric Receive-only
+        Advertised auto-negotiation: Yes #默认使用自适应模式
+        Link partner advertised link modes:  10baseT/Half 10baseT/Full
+                                            100baseT/Half 100baseT/Full
+        .....
+        Speed: 100Mb/s #现在网卡的速度是100Mb,网卡使用自适应模式，所以推测路由是100Mb，导致网卡从支持千兆，变成要支持百兆
+        Duplex: Full   #全双工
+        .....
+        Link detected: yes    #表示有网线连接，和路由是通的
+
+    ```
+
+6. pci: `lspci [-v|-vv|-t]`
+7. bios: `dmidecode -t bios`, `dmidecode -q`
+
 == The nohup command
 
 1. `$ nohup myLongRunningJob.sh &`

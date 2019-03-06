@@ -1,0 +1,16 @@
+[[ts_network]]
+= Trouble shotting for network
+
+1. use `ifconfig` to find out with interface used for your application.
+2. check the interface advice information by `ethtool`, specially the `speed` part.
+3. use `nload` check the `Incoming/Outgoing` speed
+4. TCP 链接数检查 `netstat -tnlp | grep ip | wc -l`; 这个一般与应用的连接池配置有一定的对应关系
+5. **vmstat** - 主要用来监控虚拟处理器的运行队列统计信息 `vmstat 5`
+6. **mpstat** - 主要用来监控多处理器统计信息. `mpstat -P ALL 5`, `mpstat 5`
+7. **iostat** - 主要用于监控io统计信息. `iostat 5`
+8. **top** - 监控整个系统的整体性能情况
+
+
+== TODO
+1. ps 显示的信息各列都是什么意思
+2. 深入学习 `top`
