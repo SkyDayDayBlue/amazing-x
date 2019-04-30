@@ -3,10 +3,10 @@
 
 == Usage
 1. cpu: `lscpu`, `cat /proc/cpuinfo`
-2. memory: `free -h`, `cat /proc/meminfo `
-3. memory device: `dmidecode -t memory`
-4. disk: `lsblk`, `fdisk -l`
-5. network interface device: `lspci | grep -i 'eth`, `ifconfig -a`, `ethtool eth0`
+1. memory: `free -h`, `cat /proc/meminfo `
+1. memory device: `dmidecode -t memory`
+1. disk: `lsblk`, `fdisk -l`
+1. network interface device: `lspci | grep -i 'eth`, `ifconfig -a`, `ethtool eth0`
 
     ```
     ethtool eth0
@@ -32,8 +32,8 @@
 
     ```
 
-6. pci: `lspci [-v|-vv|-t]`
-7. bios: `dmidecode -t bios`, `dmidecode -q`
+1. pci: `lspci [-v|-vv|-t]`
+1. bios: `dmidecode -t bios`, `dmidecode -q`
 
 == The nohup command
 
@@ -70,3 +70,6 @@
 * http://hisham.hm/htop/[htop] - This is htop, an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses.
 
 * http://dag.wiee.rs/home-made/dstat/[dstat] - Dstat is a versatile replacement for vmstat, iostat, netstat and ifstat. Dstat overcomes some of their limitations and adds some extra features, more counters and flexibility. Dstat is handy for monitoring systems during performance tuning tests, benchmarks or troubleshooting.
+
+== Find & Grep
+* grep content by file type: `find . -name *.py|xargs grep asdf`

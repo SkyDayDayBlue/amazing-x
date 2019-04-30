@@ -6,6 +6,54 @@ There are so many helpfully softwares for different platform. Pls just install a
 1. iTerm2:
 
     `brew cask install iterm2`
+** shell_integration
+
+  ```
+  curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash                                                                             ✔  11410  11:12:04
+    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                  Dload  Upload   Total   Spent    Left  Speed
+  100  4347  100  4347    0     0   4354      0 --:--:-- --:--:-- --:--:--  4355
+  Downloading script from https://iterm2.com/shell_integration/zsh and saving it to /Users/yimin/.iterm2_shell_integration.zsh...
+  Checking if /Users/yimin/.zshrc contains iterm2_shell_integration...
+  Downloading imgcat...
+  Downloading imgls...
+  Downloading it2attention...
+  Downloading it2check...
+  Downloading it2copy...
+  Downloading it2dl...
+  Downloading it2getvar...
+  Downloading it2setcolor...
+  Downloading it2setkeylabel...
+  Downloading it2ul...
+  Downloading it2universion...
+  Adding aliases...
+  Done.
+  --------------------------------------------------------------------------------
+
+  The next time you log in, shell integration will be enabled.
+
+  You will also have these commands:
+  imgcat filename
+    Displays the image inline.
+  imgls
+    Shows a directory listing with image thumbnails
+  it2attention start|stop|fireworks
+    Gets your attention
+  it2check
+    Checks if the terminal is iTerm2
+  it2copy [filename]
+    Copies to the pasteboard
+  it2dl filename
+    Downloads the specified file, saving it in your Downloads folder.
+  it2setcolor ...
+    Changes individual color settings or loads a color preset
+  it2setkeylabel ...
+    Changes Touch Bar function key labels
+  it2ul
+    Uploads a file
+  it2universion
+    Sets the current unicode version
+  ```
 
 2. ohMyZsh:
 
