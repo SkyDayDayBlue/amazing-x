@@ -3,4 +3,6 @@
 = Bash
 
 1. replace in directory: `find ./ -type f -exec sed -i -e 's/apple/orange/g' {} \;`
-2. `sed -n "/2019-02-27 16:58:36/,/2019-02-27 17:29:43/p" hazelcast.log.1c-1 > 1c1.log`
+1. `sed -n "/2019-02-27 16:58:36/,/2019-02-27 17:29:43/p" hazelcast.log.1c-1 > 1c1.log`
+1. find ./ -type f -exec sed -i.bak 's/com\.$/com/g' {} \;
+1. find ./ -type f -name "*.bak" -exec rm -f {} \;

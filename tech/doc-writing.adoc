@@ -8,3 +8,7 @@
 == Asciidoc
 
 1. https://asciidoctor.org/docs/user-manual/[User Manual]
+
+== PlantUML
+1. https://github.com/RicardoNiepel/C4-PlantUML[C4-PlantUML]
+1. https://real-world-plantuml.com/[Real World PlantUML]

@@ -70,6 +70,7 @@
 * http://hisham.hm/htop/[htop] - This is htop, an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses.
 
 * http://dag.wiee.rs/home-made/dstat/[dstat] - Dstat is a versatile replacement for vmstat, iostat, netstat and ifstat. Dstat overcomes some of their limitations and adds some extra features, more counters and flexibility. Dstat is handy for monitoring systems during performance tuning tests, benchmarks or troubleshooting.
+* iostat –x 1
 
 == Find & Grep
 * grep content by file type: `find . -name *.py|xargs grep asdf`
