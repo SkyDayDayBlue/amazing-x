@@ -74,3 +74,9 @@
 
 == Find & Grep
 * grep content by file type: `find . -name *.py|xargs grep asdf`
+
+== awk
+* awk 'BEGIN{sum=0}{sum+=$8}END{print sum}'
+
+== echo
+* echo $(($(date +%s%N)/1000000))
