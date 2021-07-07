@@ -30,7 +30,7 @@
         .....
         Link detected: yes    #表示有网线连接，和路由是通的
 
-    ```
+    ```@
 
 1. pci: `lspci [-v|-vv|-t]`
 1. bios: `dmidecode -t bios`, `dmidecode -q`
@@ -80,3 +80,6 @@
 
 == echo
 * echo $(($(date +%s%N)/1000000))
+
+== gradle
+* ./gradlew -x test build -P systemProp.http.proxyHost=localhost -P systemProp.http.proxyPort=3129

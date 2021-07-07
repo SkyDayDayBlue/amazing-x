@@ -5,4 +5,20 @@
 1. replace in directory: `find ./ -type f -exec sed -i -e 's/apple/orange/g' {} \;`
 1. `sed -n "/2019-02-27 16:58:36/,/2019-02-27 17:29:43/p" hazelcast.log.1c-1 > 1c1.log`
 1. find ./ -type f -exec sed -i.bak 's/com\.$/com/g' {} \;
+1. find ./ -type f -exec sed -i.bak 's/Template/Push\ Server/g' {} \;
+1. find ./ -type f -exec sed -i.bak 's/io\.wbf\.futures\.push-x/io.wbf.futures.push/g' {} \;
 1. find ./ -type f -name "*.bak" -exec rm -f {} \;
+
+
+
+
+sed -i 's/spring.profiles.active=production/spring.profiles.active=test-1/g" `grep spring.profiles.active=production -rl ./`
+
+
+find ./ -name '*test-1*' | xargs -I{} echo mv  \"{}\" \"{}\"  | sed 's/test-1/test-1/2' | sh
+
+
+sed -i "s/spring.profiles.active=test-1/spring.profiles.active=test-1/g"  `grep spring.profiles.active=test-1 -rl ./`
+
+
+sed -i "s/test-1/test-1/g"  `grep test-1 -rl ./`  
